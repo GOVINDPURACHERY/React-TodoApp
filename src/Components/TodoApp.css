@@ -1,0 +1,79 @@
+body{
+    /* color: blue; */
+    background-image: url(./161943355-company-strategy-development-in-business-on-office-desk-background-top-view-mock-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.listing-container{
+    display: flex;
+}
+.todo-container{
+    background-color:#4a979b;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+h1{
+    text-align: center;
+    /* width: 500px; */
+}
+.input-section{
+    width: 450px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    /* background-color: rgb(183, 45, 164); */
+    padding-left: 24px;
+}
+input{
+    width: 360px;
+    height:38px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.input-section button{
+    border-radius: 5px;
+    height: 42px;
+    width: 80px;
+    
+}
+.listing-container{
+    width: 500px;
+    display:flex
+}
+.listing-content{
+    width: 500px;
+}
+
+ul li button{
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    font-size: large;
+    margin-top: 10px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 28px;
+    list-style: lower-greek;
+    height: 30px;
+}
+ul li i{
+    font-size: x-large;
+    cursor: pointer;
+}
